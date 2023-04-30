@@ -1,0 +1,1 @@
+Navbar 1 simple and responsive to the screen size
