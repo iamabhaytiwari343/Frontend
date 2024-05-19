@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .book-card {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            /* Arrange cover and info side-by-side */
+            width: 300px;
+            /* Adjust width as needed */
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .book-card img {
+            width: 100px;
+            /* Adjust image width */
+            height: auto;
+            margin-right: 20px;
+            /* Add space between cover and info */
+        }
+
+        .book-info {
+            font-family: sans-serif;
+        }
+
+        .book-info h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .book-info p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .book-info a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Same styles as Concept 1, with additional styles below: */
+
+        .ratings {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .ratings i {
+            font-size: 16px;
+            color: gold;
+            margin-right: 5px;
+        }
+
+        .ratings span {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="book-card">
+        <img src="book.jpg" alt="Book Cover">
+        <div class="book-info">
+            <h2>Alchemist</h2>
+            <p>By Paulo Coelho</p>
+            <div class="ratings">
+                <i class="fas fa-star"></i> <span>4.5</span> (123 Reviews)
+            </div>
+            <p>Genre</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
 </body>
+
 </html>
