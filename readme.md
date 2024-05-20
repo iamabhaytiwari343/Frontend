@@ -13,7 +13,11 @@
 ## pagination
 ![Alt text](./readme_images/pagination.png)
 
+## Contact Form
+![Alt text](./readme_images/contactform.png)
 
+## Contact Form
+![Alt text](./readme_images/contactform2.png)
 ## Navbar 1 simple and responsive to the screen size
 ![Alt text](./readme_images/navbar1.png)
 ## Footer 1 simple and responsive to screen size 
