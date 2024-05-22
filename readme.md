@@ -22,5 +22,11 @@
 ![Alt text](./readme_images/navbar1.png)
 ## Footer 1 simple and responsive to screen size 
 ![Alt text](./readme_images/Footer1.png)
+## Footer
+![Alt text](./readme_images/footer2.png)
+## Footer
+![Alt text](./readme_images/footer3.png)
+## Footer
+![Alt text](./readme_images/footer4.png)
 ## Form 1 
 ![Alt text](./readme_images/form1.jpg)

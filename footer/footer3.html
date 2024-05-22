@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .footer {
+            background-color: #f2f2f2;
+            padding: 30px 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col-md-4,
+        .col-sm-6 {
+            flex: 0 0 33.33%;
+            padding: 10px;
+        }
+
+        .footer-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .footer-contact,
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-contact li,
+        .footer-links li {
+            margin-bottom: 5px;
+        }
+
+        .footer-contact a,
+        .footer-links a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .footer-contact a:hover,
+        .footer-links a:hover {
+            color: #999;
+        }
+
+        .social-icons {
+            display: flex;
+        }
+
+        .social-icons li {
+            margin-left: 10px;
+        }
+
+        .social-icons a {
+            color: #333;
+        }
+
+        .social-icons a:hover {
+            color: #00aced;
+        }
+
+        .copyright {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #e2e2e2;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+
+            .col-md-4,
+            .col-sm-6 {
+                flex: 0 0 50%;
+            }
+        }
+
+        @media (max-width: 576px) {
+
+            .col-md-4,
+            .col-sm-6 {
+                flex: 0 0 100%;
+                text-align: center;
+            }
+        }
+    </style>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i><a href="tel:+1234567890">(123) 456-7890</a></li>
+                        <li><i class="fas fa-envelope"></i><a
+                                href="mailto:support@yourstore.com">support@yourstore.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <h3 class="footer-title">Information</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-6 d-flex justify-content-end align-items-center">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Your Store Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
