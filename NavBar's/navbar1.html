@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+.navbar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        overflow: hidden;
+      }
+      
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+      
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+      }
+      
+      .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      .nav-links li {
+        margin-right: 20px;
+      }
+      
+      .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 15px;
+        transition: all 0.3s ease;
+      }
+      
+      .nav-links a:hover {
+        background-color: #222;
+      }
+      
+      .dropdown {
+        position: relative;
+      }
+      
+      .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+      
+      .dropdown-toggle i {
+        margin-left: 5px;
+        transition: transform 0.3s ease;
+      }
+      
+      .dropdown:hover .dropdown-toggle i {
+        transform: rotate(180deg);
+      }
+      
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        list-style: none;
+        padding: 0;
+        top: 100%;
+        left: 0;
+        width: 150px;
+        z-index: 1;
+      }
+      
+      .dropdown-menu li {
+        margin: 0;
+      }
+      
+      .dropdown-menu a {
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+      
+      .dropdown-menu a:hover {
+        background-color: #222;
+      }
+      
+      .nav-icons {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      .nav-icons li {
+        margin-left: 20px;
+      }
+      
+      .nav-icons a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.3s ease;
+      }
+      
+      .nav-icons a:hover {
+        color: #ccc;
+      }
+      
+      /* Font Awesome Icon library */
+      .fas {
+        font-family: FontAwesome;
+      }
+    </style>
+    
+      
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo">Your Brand Name</a>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle">Products <i class="fas fa-angle-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav-icons">
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      
+</body>
+</html>
