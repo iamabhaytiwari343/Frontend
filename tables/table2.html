@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            /* Adjust width as needed for your app */
+            margin-bottom: 20px;
+            /* Add spacing for readability */
+        }
+
+        th,
+        td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        caption {
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            /* Center align caption */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            /* Light gray background for headers */
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+            /* Alternate row colors */
+        }
+
+        /* Optional: Style specific columns */
+        .dish {
+            width: 40%;
+            /* Adjust width for dish names */
+        }
+
+        .description {
+            font-size: 0.8em;
+            /* Smaller font for descriptions */
+        }
+    </style>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <table>
+        <caption>Today's Specials</caption>
+        <thead>
+            <tr>
+                <th>Dish</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Seared Salmon with Lemon Dill Sauce</td>
+                <td>Pan-seared salmon fillet served with roasted vegetables and a light lemon dill sauce.</td>
+                <td>$24.99</td>
+            </tr>
+            <tr>
+                <td>Black Bean Burger</td>
+                <td>A hearty black bean patty topped with avocado, salsa, and vegan cheese on a whole wheat bun.</td>
+                <td>$16.99</td>
+            </tr>
+            <tr>
+                <td>Penne Primavera</td>
+                <td>Fresh seasonal vegetables tossed in a light cream sauce with penne pasta.</td>
+                <td>$18.99</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
+
 </html>
